@@ -1,0 +1,2612 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">USFoodandBevarage.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>USFoodandBevarage.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">Apparel.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Apparel.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">USTransportation.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>USTransportation.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">medical.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>medical.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="series_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="series_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_footnote_codes" selected="False" input="Left_" />
+                <SelectField field="Right_series_id" selected="False" rename="Right_series_id" input="Right_" />
+                <SelectField field="Right_footnote_codes" selected="False" rename="Right_footnote_codes" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="210" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">cu_series.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>cu_series.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="series_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="series_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_footnote_codes" selected="False" input="Left_" />
+                <SelectField field="Right_series_id" selected="False" rename="Right_series_id" input="Right_" />
+                <SelectField field="Right_footnote_codes" selected="False" rename="Right_footnote_codes" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="series_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="series_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_footnote_codes" selected="False" input="Left_" />
+                <SelectField field="Right_series_id" selected="False" rename="Right_series_id" input="Right_" />
+                <SelectField field="Right_footnote_codes" selected="False" rename="Right_footnote_codes" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="series_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="series_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_footnote_codes" selected="False" input="Left_" />
+                <SelectField field="Right_series_id" selected="False" rename="Right_series_id" input="Right_" />
+                <SelectField field="Right_footnote_codes" selected="False" rename="Right_footnote_codes" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="510" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[year] &gt; "2018" AND [period]&lt; "13"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[year] &gt; "2018" AND [period]&lt; "13"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="510" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[year] &gt; "2018" AND [period]&lt; "13"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[year] &gt; "2018" AND [period]&lt; "13"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="510" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[year] &gt; "2017" AND [period]&lt; "13"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[year] &gt; "2017" AND [period]&lt; "13"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="510" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[year] &gt; "2018" AND [period]&lt; "13"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[year] &gt; "2018" AND [period]&lt; "13"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="series_id" selected="True" />
+            <SelectField field="year" selected="True" type="Int16" size="2" />
+            <SelectField field="period" selected="True" type="Int16" size="2" />
+            <SelectField field="value" selected="True" type="Int16" size="2" />
+            <SelectField field="item_code" selected="True" />
+            <SelectField field="series_title" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="618" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="series_id" selected="True" />
+            <SelectField field="year" selected="True" type="Int16" size="2" />
+            <SelectField field="period" selected="True" type="Int16" size="2" />
+            <SelectField field="value" selected="True" type="Int16" size="2" />
+            <SelectField field="item_code" selected="True" />
+            <SelectField field="series_title" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="series_id" selected="True" />
+            <SelectField field="year" selected="True" type="Int16" size="2" />
+            <SelectField field="period" selected="True" type="Int16" size="2" />
+            <SelectField field="value" selected="True" type="Int16" size="2" />
+            <SelectField field="item_code" selected="True" />
+            <SelectField field="series_title" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="series_id" selected="True" />
+            <SelectField field="year" selected="True" type="Int16" size="2" />
+            <SelectField field="period" selected="True" type="Int16" size="2" />
+            <SelectField field="value" selected="True" type="Int16" size="2" />
+            <SelectField field="item_code" selected="True" />
+            <SelectField field="series_title" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Substring([period],1,3)" field="period" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[period = Substring([period],1,3)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Substring([period],1,3)" field="period" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[period = Substring([period],1,3)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Substring([period],1,3)" field="period" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[period = Substring([period],1,3)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Substring([period],1,3)" field="period" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[period = Substring([period],1,3)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="area_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="seasonal" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="periodicity_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="base_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="begin_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="end_period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="762" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="item_code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="item_code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_series_id" selected="True" input="Left_" />
+                <SelectField field="Left_year" selected="True" input="Left_" />
+                <SelectField field="Left_period" selected="True" input="Left_" />
+                <SelectField field="Left_value" selected="True" input="Left_" />
+                <SelectField field="Left_item_code" selected="True" input="Left_" />
+                <SelectField field="Left_series_title" selected="True" input="Left_" />
+                <SelectField field="Right_item_code" selected="False" rename="Right_item_code" input="Right_" />
+                <SelectField field="Right_item_name" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="display_level" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="selectable" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="sort_sequence" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="762" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="item_code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="item_code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_series_id" selected="True" input="Left_" />
+                <SelectField field="Left_year" selected="True" input="Left_" />
+                <SelectField field="Left_period" selected="True" input="Left_" />
+                <SelectField field="Left_value" selected="True" input="Left_" />
+                <SelectField field="Left_item_code" selected="True" input="Left_" />
+                <SelectField field="Left_series_title" selected="True" input="Left_" />
+                <SelectField field="Right_item_code" selected="False" rename="Right_item_code" input="Right_" />
+                <SelectField field="Right_item_name" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="display_level" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="selectable" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="sort_sequence" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="774" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="item_code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="item_code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_series_id" selected="True" input="Left_" />
+                <SelectField field="Left_year" selected="True" input="Left_" />
+                <SelectField field="Left_period" selected="True" input="Left_" />
+                <SelectField field="Left_value" selected="True" input="Left_" />
+                <SelectField field="Left_item_code" selected="True" input="Left_" />
+                <SelectField field="Left_series_title" selected="True" input="Left_" />
+                <SelectField field="Right_item_code" selected="False" rename="Right_item_code" input="Right_" />
+                <SelectField field="Right_item_name" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="display_level" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="selectable" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="sort_sequence" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="786" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="item_code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="item_code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_series_id" selected="True" input="Left_" />
+                <SelectField field="Left_year" selected="True" input="Left_" />
+                <SelectField field="Left_period" selected="True" input="Left_" />
+                <SelectField field="Left_value" selected="True" input="Left_" />
+                <SelectField field="Left_item_code" selected="True" input="Left_" />
+                <SelectField field="Left_series_title" selected="True" input="Left_" />
+                <SelectField field="Right_item_code" selected="False" rename="Right_item_code" input="Right_" />
+                <SelectField field="Right_item_name" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="Int16" />
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="series_title" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_series.txt" type="V_String" />
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="display_level" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="selectable" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="sort_sequence" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="486" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">cu_item.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>cu_item.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="item_code" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="display_level" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="selectable" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="sort_sequence" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="870" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="year" action="GroupBy" rename="year" />
+            <SummarizeField field="period" action="GroupBy" rename="period" />
+            <SummarizeField field="value" action="Avg" rename="Avg_CPI" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="894" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="year" action="GroupBy" rename="year" />
+            <SummarizeField field="period" action="GroupBy" rename="period" />
+            <SummarizeField field="value" action="Avg" rename="Avg_CPI" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="894" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="year" action="GroupBy" rename="year" />
+            <SummarizeField field="period" action="GroupBy" rename="period" />
+            <SummarizeField field="value" action="Avg" rename="Avg_CPI" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="918" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="year" action="GroupBy" rename="year" />
+            <SummarizeField field="period" action="GroupBy" rename="period" />
+            <SummarizeField field="value" action="Avg" rename="Avg_CPI" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="990" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="year" order="Ascending" />
+            <Field field="period" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>year - Ascending
+period - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1002" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="year" order="Ascending" />
+            <Field field="period" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>year - Ascending
+period - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1002" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="year" order="Ascending" />
+            <Field field="period" order="Ascending" />
+            <Field field="Avg_CPI" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>year - Ascending
+period - Ascending
+Avg_CPI - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1038" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="year" order="Ascending" />
+            <Field field="period" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>year - Ascending
+period - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1134" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>year</UpdateField_Name>
+          <CreateField_Name>Inflation</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="2" />
+          <Expression>(([Avg_CPI]-[Row-1:Avg_CPI])/[Row-1:Avg_CPI]) * 100</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>(([Avg_CPI]-[Row-1:Avg_CPI])/[Row-1:Avg_CPI]) * 100</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\Apparel.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+            <Field name="Inflation" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1146" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>year</UpdateField_Name>
+          <CreateField_Name>Inflation</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="2" />
+          <Expression>(([Avg_CPI]-[Row-1:Avg_CPI])/[Row-1:Avg_CPI]) * 100</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>(([Avg_CPI]-[Row-1:Avg_CPI])/[Row-1:Avg_CPI]) * 100</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USFoodandBevarage.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+            <Field name="Inflation" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1146" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>year</UpdateField_Name>
+          <CreateField_Name>Inflation</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="2" />
+          <Expression>(([Avg_CPI]-[Row-1:Avg_CPI])/[Row-1:Avg_CPI]) * 100</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>(([Avg_CPI]-[Row-1:Avg_CPI])/[Row-1:Avg_CPI]) * 100</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+            <Field name="Inflation" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1182" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>year</UpdateField_Name>
+          <CreateField_Name>Inflation</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="2" />
+          <Expression>(([Avg_CPI]-[Row-1:Avg_CPI])/[Row-1:Avg_CPI]) * 100</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>(([Avg_CPI]-[Row-1:Avg_CPI])/[Row-1:Avg_CPI]) * 100</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\medical.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+            <Field name="Inflation" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="906" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="item_name" action="GroupBy" rename="item_name" />
+            <SummarizeField field="year" action="GroupBy" rename="year" />
+            <SummarizeField field="period" action="GroupBy" rename="period" />
+            <SummarizeField field="value" action="Avg" rename="Avg_CPI" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1026" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="year" order="Ascending" />
+            <Field field="period" order="Ascending" />
+            <Field field="Avg_CPI" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>year - Ascending
+period - Ascending
+Avg_CPI - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1290" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>item_name</UpdateField_Name>
+          <CreateField_Name>Inflation</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="2" />
+          <Expression>(([Avg_CPI]-[Row-1:Avg_CPI])/[Row-1:Avg_CPI]) * 100</Expression>
+          <GroupByFields>
+            <Field field="item_name" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>(([Avg_CPI]-[Row-1:Avg_CPI])/[Row-1:Avg_CPI]) * 100</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - Avg_CPI" type="Double" />
+            <Field name="Inflation" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1266" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">Tableau-Graph-Data\Apparals_graph_1.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Apparals_graph_1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1266" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">Tableau-Graph-Data\food_graph_1.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>food_graph_1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1266" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">Tableau-Graph-Data\transportation_1.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>transportation_1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1290" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">Tableau-Graph-Data\medical_graph_1.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>medical_graph_1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1590" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">Tableau-Graph-Data\transportation-stage-2-viz.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>transportation-stage-2-viz.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">USTransportation.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>USTransportation.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="period" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="138" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Substring([period],1,3)" field="period" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[period = Substring([period],1,3)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="period" size="254" source="Formula: Substring([period],1,3)" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="footnote_codes" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="342" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-02-10 19:15:54</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2006</Operand>
+              <StartDate>2023-02-10 19:15:54</StartDate>
+              <EndDate>2023-02-10 19:15:54</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[year] &gt;= 2006</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="series_id" selected="True" />
+            <SelectField field="year" selected="True" type="Int16" size="2" />
+            <SelectField field="period" selected="True" type="Int16" size="2" />
+            <SelectField field="value" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="series_id" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="period" source="Formula: Substring([period],1,3)" type="Int16" />
+            <Field name="value" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="486" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="year" action="GroupBy" rename="year" />
+            <SummarizeField field="value" action="Avg" rename="Avg_value" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="Avg_value" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="570" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="year" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>year - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="Avg_value" source="Summarize: Avg - value" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="810" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">regression_data.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>regression_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="702" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>year</UpdateField_Name>
+          <CreateField_Name>Inflation rate</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="2" />
+          <Expression>(([Avg_value]-[Row-1:Avg_value])/[Row-1:Avg_value]) * 100</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>(([Avg_value]-[Row-1:Avg_value])/[Row-1:Avg_value]) * 100</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="Avg_value" source="Summarize: Avg - value" type="Double" />
+            <Field name="Inflation rate" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1122" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="item_name" action="GroupBy" rename="item_name" />
+            <SummarizeField field="year" action="GroupBy" rename="year" />
+            <SummarizeField field="Avg_CPI" action="Avg" rename="Avg_CPI" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - Avg_CPI" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1206" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="item_name" order="Ascending" />
+            <Field field="year" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>item_name - Ascending
+year - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - Avg_CPI" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1386" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-02-11 09:30:11</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2018</Operand>
+              <StartDate>2023-02-11 09:30:11</StartDate>
+              <EndDate>2023-02-11 09:30:11</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[year] &gt; 2018</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - Avg_CPI" type="Double" />
+            <Field name="Inflation" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - Avg_CPI" type="Double" />
+            <Field name="Inflation" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1494" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="year" order="Ascending" />
+            <Field field="Inflation" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>year - Ascending
+Inflation - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="item_name" size="254" source="File: C:\Users\arshi\OneDrive\Desktop\cu_item.txt" type="V_String" />
+            <Field name="year" source="File: C:\Users\arshi\OneDrive\Desktop\USTransportation.txt" type="Int16" />
+            <Field name="Avg_CPI" source="Summarize: Avg - Avg_CPI" type="Double" />
+            <Field name="Inflation" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Join" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="True" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="33" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="33" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="34" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="34" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="35" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="35" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Join" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Join" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="True" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="True" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alteryx_Datathon</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0d06a7ef-f7c2-4f2d-a257-5ac743aa9791" />
+      <Telemetry>
+        <PreviousWorkflowId value="b24153f4-fc43-4b73-9678-62ed6087c4b2" />
+        <OriginWorkflowId value="b24153f4-fc43-4b73-9678-62ed6087c4b2" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
